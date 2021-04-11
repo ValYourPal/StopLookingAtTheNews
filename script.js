@@ -26,3 +26,4 @@ function onDrop(event) {
     .dataTransfer
     .clearData();
 }
+

@@ -6,25 +6,30 @@
   </head>
   <body>
     <script src="script.js"></script>
+    <div>
     <div class="example-parent">
+      <div>
       <h1>Stop looking at the news!</h1>
+      <p> Drag the news sources to the trash to reveal a calming nature background</p>
+    </div>
       <div class="example-origin">
-        News sources
+        
         <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-        CNN
+        <img src="CNN-Logo.png" height="100" width="200">
       </div>
       <div
         id="draggable-2"
         class="example-draggable"
         draggable="true"
-        ondragstart="onDragStart(event);"
+        ondragstart="onDragStart(event);" 
       >
-        Fox
+      <img src="Fox-news-logo.png" height="100" width="200">
+
       </div>
       <div
         id="draggable-3"
@@ -32,7 +37,8 @@
         draggable="true"
         ondragstart="onDragStart(event);"
       >
-        The Wall Street Journal
+      <img src="WSJ.png" height="100" width="200">
+
       </div>
       <div
         id="draggable-4"
@@ -40,7 +46,7 @@
         draggable="true"
         ondragstart="onDragStart(event);"
       >
-        NBC
+      <img src="NBC.png" height="100" width="200">  
       </div>
         </div>
       </div>
@@ -50,8 +56,9 @@
         ondragover="onDragOver(event);"
         ondrop="onDrop(event);"
       >
-        Trash
+      <img src="bin.jpeg">
       </div>
     </div>
+  </div>
   </body>
 </html>
